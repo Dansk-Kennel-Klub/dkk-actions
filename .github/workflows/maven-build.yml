@@ -12,6 +12,8 @@ on:
     secrets:
       PACKAGES_TOKEN:
         required: true
+      ORIGIN_PACKAGES_TOKEN:
+        required: false
 
 jobs:
   build:
