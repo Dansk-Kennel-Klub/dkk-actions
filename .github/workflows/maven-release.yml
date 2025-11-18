@@ -31,7 +31,7 @@ jobs:
     - name: Set up JDK
       uses: actions/setup-java@v3
       with:
-        distribution: 'adopt'
+        distribution: 'corretto'
         overwrite-settings: false
         java-version: ${{ inputs.jdk }}
     - name: Configure Maven
