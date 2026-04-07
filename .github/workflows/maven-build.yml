@@ -38,6 +38,7 @@ jobs:
                   <server><id>github-dkk-okonomi</id><username>x-access-token</username><password>${{ secrets.PACKAGES_TOKEN }}</password></server>
                   <server><id>github-dkk-google-recaptcha</id><username>x-access-token</username><password>${{ secrets.PACKAGES_TOKEN }}</password></server>
                   <server><id>github-dkk-smartsend</id><username>x-access-token</username><password>${{ secrets.PACKAGES_TOKEN }}</password></server>
+                  <server><id>github-dkk-google-recaptcha</id><username>x-access-token</username><password>${{ secrets.PACKAGES_TOKEN }}</password></server>
                   <server><id>github-origin-legacy</id><username>x-access-token</username><password>${{ secrets.ORIGIN_PACKAGES_TOKEN }}</password></server>
                   <server><id>github-origin-gt-legacy</id><username>x-access-token</username><password>${{ secrets.ORIGIN_PACKAGES_TOKEN }}</password></server>
                   <server><id>github-origin-seamless-mail</id><username>x-access-token</username><password>${{ secrets.ORIGIN_PACKAGES_TOKEN }}</password></server>
